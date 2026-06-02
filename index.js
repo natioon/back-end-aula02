@@ -20,7 +20,7 @@ app.get('/sobre', (req, res) => {
 // Rota 3: Contato (Ajustada a ordem req, res)
 app.get('/contato', (req, res) => {
     res.send("Email: 2024101318.aluno@unicarioca.edu.br");
-     res.send("Teste")
+    
 });
 // Rota 4: links 
 app.get('/link', (req, res) => {
